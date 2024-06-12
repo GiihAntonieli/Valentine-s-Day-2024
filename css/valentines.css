@@ -55,7 +55,7 @@ section.image{
 
 section.image > p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: rgba(0, 0, 0, 0.4);
     text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.55);
     padding: 5px;
     border-radius: 10px;
@@ -117,7 +117,7 @@ a{
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.557);
 }
 
-#traduzir :hover{
+#traduzir> a:hover{
     background-color: rgb(46, 46, 46);
     color: white;
 }
@@ -125,58 +125,57 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Media Queries*/
 
 @media screen and (max-width: 600px) {/*Pequenas Telas*/
     body, html{
-        width: 98.7vw;
+        width: 96.7vw;
         height: 100vh;
         background-color: darkgrey;
     }
+
+    footer > p{
+        font-size: 0.6em;
+    }
+    
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {/*Celular*/
     body, html{
-        width: 88vw;
+        width: 97.7vw;
         height: 100vh;
         background-color: darkgrey;
     }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {/*Tablet*/
     body, html{
-        width: 90vw;
+        width: 98.2vw;
         height: 100vh;
         background-color: darkgrey;
     }
+    
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {/*Desktop*/
     body, html{
-        width: 95vw;
+        width: 98.3vw;
         height: 100vh;
         background-color: darkgrey;
+        color: white;
     }
+    
+    
 }
 
 @media screen and (min-width: 1200px) {/*Grandes Telas*/
     body, html{
-        width: 98.7vw;
+        width: 98.6vw;
         height: 100vh;
         background-color: darkgrey;
     }
+    
 }
 
 
