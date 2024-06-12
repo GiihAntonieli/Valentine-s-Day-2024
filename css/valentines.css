@@ -210,6 +210,10 @@ footer > p{
         font-size: 1.5em;
     }
 
+    p{
+        padding: 10px; 
+     }
+
     section.image > p{
         text-align: left;
         width: 250px;
