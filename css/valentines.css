@@ -197,7 +197,7 @@ footer > p{
 
 @media screen and (min-width: 600px) and (max-width: 768px) {/*Celular*/
     body, html{
-        width: 98vw;
+        width: 97.8vw;
         height: 100vh;
         background-color: darkgrey;
     }
@@ -251,6 +251,10 @@ footer > p{
 
     a{
         margin: 30px;
+    }
+
+    .normal#final{
+        font-size: 2em;
     }
 
 
