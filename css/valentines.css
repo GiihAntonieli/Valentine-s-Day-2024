@@ -122,6 +122,10 @@ a{
     color: white;
 }
 
+footer > p{
+    font-weight: bold;
+}
+
 
 
 
@@ -129,10 +133,61 @@ a{
 
 @media screen and (max-width: 600px) {/*Pequenas Telas*/
     body, html{
-        width: 90vw;
+        width: 96vw;
         height: 100vh;
         background-color: darkgrey;
     }
+
+    header > h1{
+        font-size: 1.5em;
+    }
+
+    section.image > p{
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.4);
+        text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.55);
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    section#img1{
+        background-image: url(../img/POV-P.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img2{
+        background-image: url(../img/write-P.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img3{
+        background-image: url(../img/goldenHour-P.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img4{
+        background-image: url(../img/bestPart-P.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img5{
+        background-image: url(../img/mirrors-P.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #traduzir{
+        margin: auto;
+    }
+
+    a{
+        margin: 30px;
+    }
+
 
     footer > p{
         font-size: 0.6em;
@@ -142,18 +197,104 @@ a{
 
 @media screen and (min-width: 600px) and (max-width: 768px) {/*Celular*/
     body, html{
-        width: 97.7vw;
+        width: 98vw;
         height: 100vh;
         background-color: darkgrey;
+    }
+
+    header > h1{
+        font-size: 1.5em;
+    }
+
+    section.image > p{
+        text-align: left;
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.55);
+        padding: 1px;
+        border-radius: 10px;
+    }
+
+    section#img1{
+        background-image: url(../img/POV-M.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img2{
+        background-image: url(../img/write-M.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img3{
+        background-image: url(../img/goldenHour-M.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img4{
+        background-image: url(../img/bestPart-M.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img5{
+        background-image: url(../img/mirrors-M.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #traduzir{
+        margin: auto;
+    }
+
+    a{
+        margin: 30px;
+    }
+
+
+    footer > p{
+        font-size: 0.6em;
     }
     
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {/*Tablet*/
     body, html{
-        width: 98.2vw;
+        width: 97.9vw;
         height: 100vh;
         background-color: darkgrey;
+    }
+
+    section#img1{
+        background-image: url(../img/POV-M.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img2{
+        background-image: url(../img/write-M.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img3{
+        background-image: url(../img/goldenHour-M.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img4{
+        background-image: url(../img/bestPart-M.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    section#img5{
+        background-image: url(../img/mirrors-M.jpg);
+        background-size: cover;
+        background-position: center center;
     }
     
 }
