@@ -29,11 +29,17 @@ header > p, footer > p{
 }
 
 section{
-    padding-top: 15vh;
-    padding-bottom: 15vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     padding-left: 50px;
     line-height: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+
+section > p {
+    padding-bottom: 1.5em;
+    font-weight: 600;
 }
 
 section.normal{
@@ -44,13 +50,77 @@ section.normal{
 section.image{
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.735);
 }
 
 section.image > p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.11);
+    background-color: rgba(0, 0, 0, 0.233);
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.55);
+    padding: 5px;
+    border-radius: 10px;
 }
 
+section#img1{
+    background-image: url(../img/POV-G.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+section#img2{
+    background-image: url(../img/write-G.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+section#img3{
+    background-image: url(../img/goldenHour-G.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+section#img4{
+    background-image: url(../img/bestPart-G.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+section#img5{
+    background-image: url(../img/mirrors-G.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.normal#final{
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+#traduzir{
+    margin:  auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    width: 100px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: rgb(160, 160, 160);
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.557);
+}
+
+#traduzir :hover{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
 
 
 
@@ -70,23 +140,43 @@ section.image > p{
 
 
 @media screen and (max-width: 600px) {/*Pequenas Telas*/
-    
+    body, html{
+        width: 98.7vw;
+        height: 100vh;
+        background-color: darkgrey;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {/*Celular*/
-    
+    body, html{
+        width: 88vw;
+        height: 100vh;
+        background-color: darkgrey;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {/*Tablet*/
-    
+    body, html{
+        width: 90vw;
+        height: 100vh;
+        background-color: darkgrey;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {/*Desktop*/
-    
+    body, html{
+        width: 95vw;
+        height: 100vh;
+        background-color: darkgrey;
+    }
 }
 
 @media screen and (min-width: 1200px) {/*Grandes Telas*/
-    
+    body, html{
+        width: 98.7vw;
+        height: 100vh;
+        background-color: darkgrey;
+    }
 }
 
 
